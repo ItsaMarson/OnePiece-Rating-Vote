@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 col1, col2, col3 = st.columns(3)
-st.title("Hello World")
+
 # Initialize session state for ratings at the start of the script
 if 'ratings' not in st.session_state:
     st.session_state['ratings'] = {
